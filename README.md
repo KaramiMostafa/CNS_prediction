@@ -1,6 +1,6 @@
 # README
 
-This repository contains the source code for the experiments described in the paper "Title of the paper" submitted to IEEE Transactions on XYZ. 
+This repository contains the source code for the study described in the paper "Exploring the Relationship between Air Pollution and CNS Disease Mortality in Italy: A Forecasting Study with ARIMA and XGBoost" submitted to IEEE ..... 
 
 Air pollution is a significant environmental health
 concern that may have negative consequences on human health,
