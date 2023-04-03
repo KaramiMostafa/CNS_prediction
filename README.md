@@ -31,13 +31,6 @@ demographic data.
 ### Workflow Diagram
 ![My Diagram](flowchart.png)
 
-## Requirements
-
-The code is written in Python and requires the following packages:
-
-- Package 1 (version X.Y.Z)
-- Package 2 (version X.Y.Z)
-- Package 3 (version X.Y.Z)
 
 ## Installation
 
@@ -51,30 +44,15 @@ git clone https://github.com/Dechosenone/CNS_prediction.git
 pip install -r requirements.txt
 
 
-## Usage
-
-1. To run the experiments described in the paper, navigate to the `experiments` directory and run the following command:
-
-
-
-python run_experiments.py
-
-
-2. To reproduce the results, navigate to the `analysis` directory and run the following command:
-
-
-python analyze_results.py
-
-
 ## Data
 
-The data used in the experiments is available at [insert link to data source here]. 
+The data used in the experiments is available at [ISTAT](https://www.istat.it/) and [ISPRA](https://www.isprambiente.gov.it/en/istitute/index). 
 
-## Results
-
-The results of the experiments are available in the `results` directory. 
 
 ## Citation
 
 If you use this code for your research, please cite our paper:
+
+
+## Authors
 
