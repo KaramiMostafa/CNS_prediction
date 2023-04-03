@@ -28,6 +28,9 @@ might affect PM concentrations and CNS illness outcomes,
 we want to include other characteristics such as weather and
 demographic data. 
 
+### Workflow Diagram
+![My Diagram](flowchart.png)
+
 ## Requirements
 
 The code is written in Python and requires the following packages:
