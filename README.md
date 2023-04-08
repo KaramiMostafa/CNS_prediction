@@ -1,32 +1,8 @@
 # README
 
-This repository contains the source code for the study described in the paper "Exploring the Relationship between Air Pollution and CNS Disease Mortality in Italy: A Forecasting Study with ARIMA and XGBoost" submitted to IEEE ..... 
+This repository contains the source code for the study described in the paper "Exploring the Relationship between Air Pollution and CNS Disease Mortality in Italy: A Forecasting Study with ARIMA and XGBoost" submitted to the 2023 World Congress in Computer Science, Computer Engineering, and Applied Computing.
 
-Air pollution is a significant environmental health
-concern that may have negative consequences on human health,
-such as an increase in the prevalence of cardiovascular and
-respiratory disorders. From 2010 to 2020, we studied data on
-air pollution and mortality due to central nervous system (CNS)
-diseases, such as Alzheimer and Parkinson, in 107 Italian cities.
-We applied data cleaning, processing, and normalization, fol-
-lowed by the Autoregressive Integrated Moving Average (ARIMA)
-model and Extreme Gradient Boosting (XGBoost) with grid
-search to predict the death numbers caused by CNS disease in
-2020. The PM2.5 and PM10 concentrations and the number of
-CNS disease-related fatalities were accurately predicted by both
-models, according to our findings. The ARIMA model showed
-relatively better results with respect to the XGBoost model.
-In contrast to the ARIMA model, the XGBoost model needed
-more computational training time to train the model. Our
-results illustrate the potential advantages of machine learning
-algorithms for predictive modeling in the environmental and
-public health areas. We want to investigate other machine
-learning models, such as neural networks and random forests,
-to enhance the prediction performance of our model in future
-work. In order to account for any confounding variables that
-might affect PM concentrations and CNS illness outcomes,
-we want to include other characteristics such as weather and
-demographic data. 
+There is a correlation between air pollution and CNS disease, according to the research. Air pollution has been linked to an increased risk of developing neurodegenerative diseases like Alzheimer's and Parkinson's. Airborne toxins can penetrate the brain and induce inflammation, resulting in damage and cognitive decline. Air pollution is a significant environmental health issue that can harm people's health in a variety of ways, such as by increasing their risk of heart and respiratory diseases. From 2010 to 2020, we looked at data from 107 Italian cities about air pollution and deaths caused by Central Nervous System (CNS) diseases like Alzheimer's and Parkinson's. Then, we compared the performance of the Autoregressive Integrated Moving Average (ARIMA) model and Extreme Gradient Boosting (XGBoost) with grid search in terms of accuracy and training time for forecasting the number of deaths caused by CNS diseases in the forthcoming year. According to our research, both models could accurately predict how much PM2.5 and PM10 were in the air and how many people would die from CNS diseases. Also, ARIMA is more accurate than XGBoost, but it takes longer to train. Both ARIMA and XGBoost are good at predicting CNS death based on air pollution, which is what our result shows. Therefore, the choice of model depends on the user's particular requirements, with ARIMA being preferred for applications where accuracy is crucial and XGBoost being preferred when training time is an issue. Overall, our findings indicate that air pollution is a significant risk factor for CNS diseases, and accurate prediction models can aid in mitigating its effects.
 
 ### Workflow Diagram
 ![My Diagram](flowchart.png)
@@ -48,11 +24,33 @@ pip install -r requirements.txt
 
 The data used in the experiments is available at [ISTAT](https://www.istat.it/) and [ISPRA](https://www.isprambiente.gov.it/en/istitute/index). 
 
+<!-- ## Citation
 
-## Citation
-
-If you use this code for your research, please cite our paper:
+If you use this code for your research, please cite our paper: -->
 
 
 ## Authors
 
+Mostafa Karami
+Electronics and Telecommunications
+Polytechnic University of Turin
+Turin, Italy
+mostafa.karami@studenti.polito.it
+-----------
+Sahand Hamzehei
+Electronics and Telecommunications
+Polytechnic University of Turin
+Turin, Italy
+sahand.hamzehei@studenti.polito.it
+------------
+Farzaneh Rastegari
+Computer Science and Engineering Department
+University of Connecticut
+Storrs, United States
+farzaneh.rastegari@uconn.edu
+-----------
+Omid Akbarzadeh
+Electronics and Telecommunications
+Polytechnic University of Turin
+Turin, Italy
+omid.akbarzadeh@studenti.polito.it
