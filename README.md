@@ -29,26 +29,26 @@ The data used in the experiments is available at [ISTAT](https://www.istat.it/) 
 If you use this code for your research, please cite our paper: -->
 
 
-## Authors
+##Authors
 
 Mostafa Karami
 Electronics and Telecommunications
 Polytechnic University of Turin
 Turin, Italy
 mostafa.karami@studenti.polito.it
------------
+
 Sahand Hamzehei
 Electronics and Telecommunications
 Polytechnic University of Turin
 Turin, Italy
 sahand.hamzehei@studenti.polito.it
-------------
+
 Farzaneh Rastegari
 Computer Science and Engineering Department
 University of Connecticut
 Storrs, United States
 farzaneh.rastegari@uconn.edu
------------
+
 Omid Akbarzadeh
 Electronics and Telecommunications
 Polytechnic University of Turin
